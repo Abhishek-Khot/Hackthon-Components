@@ -18,7 +18,7 @@ const App = () => {
   const [geminiResponse, setGeminiResponse] = useState("");
 
   // Initialize Google Generative AI with API key from .env
-  const genAI = new GoogleGenerativeAI("AIzaSyAZgfRm-nr_hzO3lwMvLdiirIAtAXjBtAw");
+  const genAI = new GoogleGenerativeAI("AIzaSyAZgfRm-nr_hzO3lwMvLdi");
 
   const handleSearch = async () => {
     if (!searchTerm.trim()) return;
